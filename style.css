@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 500vh;
+}
+
+.header{
+    background-color: rgb(46, 44, 44);
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 4px solid rgb(231, 128, 60);
+    height: 60px;
+    padding: 10px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+    height: 250px;
+    padding: 30px;
+    box-sizing:border-box;
+    width: 135vh;
+    margin: auto;
+}
+
+.titulo p{
+    font-weight: 100;
+    font-family:Helvetica, sans-serif;
+    color: rgba(80, 78, 78, 0.849);
+}
+
+#citacao{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#horaData{
+    font-weight: 100;
+    font-size: 13px;
+    font-family:Helvetica, sans-serif;
+    color: rgba(80, 78, 78, 0.466);
+    line-height: 4em;
+}
+
+.icon{
+    padding-right: 30px;
+}
+
+.mainSection{
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+h4{
+    font-size: 22px;
+    text-align: left;
+    color: rgb(224, 138, 33);
+}
+
+.moedasIMG{
+    width: 800px;
+}
+
+.figEconomic{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 19px;
+    color: rgba(71, 70, 70, 0.918);
+}
