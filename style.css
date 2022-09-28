@@ -4,15 +4,15 @@
     box-sizing:border-box;
 }
 
-body{
+html, body{
     font-family: 'Open Sans', sans-serif;
-    height: 500vh;
+    height: 100%;
 }
 
-.header{
+.topPage{
     background-color: rgb(46, 44, 44);
     color: white;
-    text-align:center;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
     border-bottom: 4px solid rgb(231, 128, 60);
@@ -20,24 +20,27 @@ body{
     padding: 10px;
 }
 
-.titulo{
-    font-size: 30px;
+.contHeader{
+    background-color: white;
+    font-size: 40px;
     font-weight: 800;
     text-align: left;
-    height: 250px;
+    height: 68%;
     padding: 30px;
-    box-sizing:border-box;
-    width: 135vh;
+    width: 70%;
     margin: auto;
 }
 
-.titulo p{
+#subTitulo{
+    font-size: 22px;
     font-weight: 100;
     font-family:Helvetica, sans-serif;
     color: rgba(80, 78, 78, 0.849);
 }
 
-#citacao{
+
+
+#autor{
     font-size: 17px;
     color: rgb(0, 0, 0);
     font-weight: 700;
@@ -46,9 +49,9 @@ body{
 
 #horaData{
     font-weight: 100;
-    font-size: 13px;
+    font-size: 10px;
     font-family:Helvetica, sans-serif;
-    color: rgba(80, 78, 78, 0.466);
+    color: rgb(80, 78, 78);
     line-height: 4em;
 }
 
@@ -57,17 +60,32 @@ body{
 }
 
 .mainSection{
+    color: rgb(80, 78, 78);
     width: 800px;
     margin: auto;
     text-align: justify;
     font-size: 25px;
     font-weight: 100;
+    padding-top: 8%;
 }
 
-h4{
-    font-size: 22px;
-    text-align: left;
+.extra{
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 100;
     color: rgb(224, 138, 33);
+}
+
+#extra1{
+    text-decoration: none;
+    color: rgba(80, 78, 78, 0.849);
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 100;
 }
 
 .moedasIMG{
@@ -80,4 +98,47 @@ h4{
     text-align: left;
     margin-top: 19px;
     color: rgba(71, 70, 70, 0.918);
+}
+
+.paragraph1 h2{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.paragraph1{
+    color: rgb(80, 78, 78);
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.geladeiraIMG{
+    width: 800px;
+}
+
+.paragraph2{
+    color: rgb(80, 78, 78);
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.paragraph2 h2{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+footer{
+    background-color: rgb(46, 44, 44);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 4px solid rgb(231, 128, 60);
+    height: 60px;
+    
 }
