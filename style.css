@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    text-decoration: none;
 }
 
 html, body{
@@ -22,26 +24,29 @@ html, body{
 
 .contHeader{
     background-color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
     text-align: left;
-    height: 68%;
+    line-height: 64px;
+    max-height: 80vh;
     padding: 30px;
-    width: 70%;
+    max-width: 900px;
     margin: auto;
 }
 
 #subTitulo{
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 700;
+    line-height: 30px;
     font-family:Helvetica, sans-serif;
     color: rgba(80, 78, 78, 0.849);
+    padding-top: 25px;
 }
 
 
 
 #autor{
-    font-size: 17px;
+    font-size: 14px;
     color: rgb(0, 0, 0);
     font-weight: 700;
     letter-spacing: 1px;
@@ -53,20 +58,29 @@ html, body{
     font-family:Helvetica, sans-serif;
     color: rgb(80, 78, 78);
     line-height: 4em;
+    margin-top: -20px;
+    margin-bottom: 40px;
 }
 
 .icon{
-    padding-right: 30px;
+    height: 50px;
+    padding: 5px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 25px;
 }
 
 .mainSection{
     color: rgb(80, 78, 78);
-    width: 800px;
-    margin: auto;
+    max-width: 648px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: justify;
-    font-size: 25px;
-    font-weight: 100;
-    padding-top: 8%;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
 }
 
 .extra{
@@ -78,18 +92,17 @@ html, body{
     color: rgb(224, 138, 33);
 }
 
-#extra1{
-    text-decoration: none;
-    color: rgba(80, 78, 78, 0.849);
-    width: 800px;
-    margin: auto;
-    text-align: justify;
-    font-size: 25px;
-    font-weight: 100;
+strong{
+    color: rgb(80, 78, 78);
+    font-weight: 400;
+}
+
+.content2{
+    margin-top: 60px;
 }
 
 .moedasIMG{
-    width: 800px;
+    width: 100%;
 }
 
 .figEconomic{
@@ -97,39 +110,16 @@ html, body{
     font-weight: 600;
     text-align: left;
     margin-top: 19px;
-    color: rgba(71, 70, 70, 0.918);
-}
-
-.paragraph1 h2{
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-}
-
-.paragraph1{
-    color: rgb(80, 78, 78);
-    width: 800px;
-    margin: auto;
-    text-align: justify;
-    font-size: 25px;
-    font-weight: 100;
+    color: rgba(80, 78, 78, 0.541);
+    margin-bottom: -30px;
 }
 
 .geladeiraIMG{
-    width: 800px;
+    width: 100%;
 }
 
-.paragraph2{
-    color: rgb(80, 78, 78);
-    width: 800px;
-    margin: auto;
-    text-align: justify;
-    font-size: 25px;
-    font-weight: 100;
-}
-
-.paragraph2 h2{
-    color: rgb(0, 0, 0);
-    font-weight: 500;
+.figEconomic{
+    
 }
 
 footer{
@@ -140,5 +130,8 @@ footer{
     font-weight: bold;
     border-top: 4px solid rgb(231, 128, 60);
     height: 60px;
-    
+    margin-top: 40px;
 }
+
+
+
