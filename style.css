@@ -30,7 +30,7 @@ html, body{
     line-height: 64px;
     max-height: 80vh;
     padding: 30px;
-    max-width: 900px;
+    max-width: 800vw;
     margin: auto;
 }
 
@@ -74,7 +74,7 @@ hr{
 
 .mainSection{
     color: rgb(80, 78, 78);
-    max-width: 648px;
+    max-width: 800vw;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -84,6 +84,15 @@ hr{
 }
 
 .extra{
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(224, 138, 33);
+}
+
+.extra1{
     width: 800px;
     margin: auto;
     text-align: justify;
@@ -118,9 +127,6 @@ strong{
     width: 100%;
 }
 
-.figEconomic{
-    
-}
 
 footer{
     background-color: rgb(46, 44, 44);
@@ -133,5 +139,314 @@ footer{
     margin-top: 40px;
 }
 
+/*Mobile*/
+@media only screen and (max-width: 390px){
+    .topPage{
+        display: none;
+    }
 
+    .contHeader{
+        font-size: 13px;
+        line-height: 20px;
+    }
 
+    #subTitulo{
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    #autor{
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    #horaData{
+        display: none;
+    }
+
+    .icon{
+        height: 40px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .mainSection{
+        font-size: 13px;
+        width: 73vw;
+        line-height: 18px;
+        margin-top: -20px;
+        padding-bottom: 50px;
+    }
+
+    .extra{
+        font-size: 12px;
+        font-weight: 800;
+        text-align: left;
+    }
+
+    .extra1{
+        font-size: 12px;
+        font-weight: 800;
+        text-align: left;
+        margin: 50px;
+    }
+
+    strong{
+        font-weight: 600;
+    }
+
+    .moedasIMG{
+        margin-bottom: -15px;
+    }
+
+    .figEconomic{
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .content2{
+        margin-top: 20px;
+    }
+
+    .geladeiraIMG{
+        margin-bottom: -15px;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+/*TABLET*/
+@media only screen and (max-width: 680px) and (min-width: 390px){
+
+    .contHeader{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #subTitulo{
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    #autor{
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    #horaData{
+        font-size: 10px;
+        margin-bottom: -1px;
+    }
+
+    .icon{
+        height: 45px;
+        padding: 10px;
+    }
+
+    .mainSection{
+        font-size: 15px;
+        width: 80vw;
+        line-height: 20px;
+        margin-top: -20px;
+        padding-bottom: 50px;
+    }
+
+    .extra{
+        font-size: 15px;
+        font-weight: 800;
+        text-align: left;
+    }
+
+    .extra1{
+        font-size: 15px;
+        font-weight: 800;
+        text-align: left;
+        margin: 50px;
+    }
+
+    strong{
+        font-weight: 600;
+    }
+
+    .moedasIMG{
+        margin-bottom: -15px;
+    }
+
+    .figEconomic{
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .content2{
+        margin-top: 20px;
+    }
+
+    .geladeiraIMG{
+        margin-bottom: -15px;
+    }
+
+}
+
+/*Resolução HD */
+@media only screen and (min-width: 681px) and (max-width: 1280px){
+
+    .contHeader{
+        font-size: 27px;
+        line-height: 38px;
+        width: 80vw;
+    }
+
+    #subTitulo{
+        font-size: 23px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    #autor{
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 25px;
+    }
+
+    #horaData{
+        font-size: 10px;
+        margin-bottom: -5px;
+    }
+
+    .icon{
+        height: 40px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .mainSection{
+        font-size: 20px;
+        font-weight: 500;
+        width: 58vw;
+        line-height: 25px;
+        margin-top: 15px;
+        padding-bottom: 50px;
+    }
+
+    .extra{
+        font-size: 18px;
+        font-weight: 800;
+        text-align: left;
+    }
+
+    .extra1{
+        font-size: 18px;
+        font-weight: 800;
+        text-align: left;
+    }
+
+    strong{
+        font-weight: 600;
+    }
+
+    .moedasIMG{
+        margin-bottom: -15px;
+    }
+
+    .figEconomic{
+        font-size: 17px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    .content2{
+        margin-top: 50px;
+    }
+
+    .geladeiraIMG{
+        margin-bottom: -15px;
+    }
+
+}
+
+/*FULL HD*/
+@media only screen and (min-width: 1280px) and (max-width: 1920px){
+
+    .topPage{
+        height: 85px;
+        font-size: 30px;
+    }
+    .contHeader{
+        font-size: 45px;
+        line-height: 70px;
+        width: 85vw;
+        margin-top: 30px;
+    }
+
+    #subTitulo{
+        font-size: 33px;
+        line-height: 35px;
+        margin-top: 40px;
+    }
+
+    #autor{
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: -35px;
+    }
+
+    #horaData{
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .icon{
+        height: 60px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .mainSection{
+        font-size: 28px;
+        font-weight: 500;
+        width: 68vw;
+        line-height: 35px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .extra{
+        font-size: 28px;
+        font-weight: 800;
+        text-align: left;
+    }
+
+    .extra1{
+        font-size: 28px;
+        font-weight: 800;
+        text-align: left;
+    }
+
+    strong{
+        font-weight: 600;
+    }
+
+    .moedasIMG{
+        margin-bottom: -10px;
+    }
+
+    .figEconomic{
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+
+    .content2{
+        margin-top: 140px;
+    }
+
+    .geladeiraIMG{
+        margin-bottom: -20px;
+    }
